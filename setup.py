@@ -7,12 +7,12 @@ with open(os.path.join(base_dir, "README.rst")) as f:
 
 setup(
     name='spitslurp',
-    version='0.3',
+    version='0.4',
     description='Write text to a file with `spit` and read from a file with `slurp`.',
     author='Matt Walker',
     author_email='walkermatt@longwayaround.org.uk',
     url='https://github.com/walkermatt/spitslurp',
-    download_url='https://github.com/walkermatt/spitslurp/archive/0.3.tar.gz',
+    download_url='https://github.com/walkermatt/spitslurp/archive/0.4.tar.gz',
     packages=['spitslurp'],
     license='MIT',
     keywords=['io', 'file'],
