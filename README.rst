@@ -1,17 +1,25 @@
-# spit slurp
+spit slurp
+==========
 
-Write text to a file with `spit` and read from a file with `slurp`.
+Write text to a file with ``spit`` and read from a file with ``slurp``.
 
-By default files are assumed to be encoded in `UTF-8`. You can specify an
-alternative encoding via the `encoding` keyword argument. For a full list of
-encodings see [Standard
-Encodings](https://docs.python.org/2/library/codecs.html#standard-encodings).
+By default files are assumed to be encoded in ``UTF-8``. You can specify an
+alternative encoding via the ``encoding`` keyword argument. For a full list of
+encodings see `Standard Encodings`.
 
-## Installation
+.. _Standard Encodings: https://docs.python.org/2/library/codecs.html#standard-encodings
+
+Installation
+------------
+
+.. code-block:: console
 
     pip install spitslurp
 
-## Usage
+Usage
+-----
+
+.. code-block:: python
 
     from spitslurp import spit, slurp
 
@@ -33,6 +41,7 @@ Encodings](https://docs.python.org/2/library/codecs.html#standard-encodings).
     # Specify an encoding
     txt = slurp('path/to/file.txt', encoding='latin1')
 
-## TODO
+TODO
+----
 
-* Tests
+* Moar tests
